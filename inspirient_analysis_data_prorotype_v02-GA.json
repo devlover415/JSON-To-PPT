@@ -1,0 +1,152 @@
+{
+  "data": [
+    {
+      "id": "ANALYSIS_NAME",
+      "type": "single_value",
+      "value": "Custom Analysis Presentation Prototype",
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : true,
+        "italic" : true,
+        "underline" : null,
+        "strikethrough" : null,
+        "fontColor" : null,
+        "backgroundColor" : null
+      }
+    },
+    {
+      "id": "ANALYSIS_DATE",
+      "type": "single_value",
+      "value": "6 November 2024",
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : null,
+        "italic" : null,
+        "underline" : null,
+        "strikethrough" : null,
+        "fontColor" : null,
+        "backgroundColor" : null
+      }
+    },
+    {
+      "id": "TOTAL_SALES",
+      "type": "single_value",
+      "value": 50000,
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : null,
+        "italic" : null,
+        "underline" : null,
+        "strikethrough" : null,
+        "fontColor" : "ffffff",
+        "backgroundColor" : "3498db"
+      }
+    },
+    {
+      "id": "TOTAL_QUANTITY",
+      "type": "single_value",
+      "value": 1000,
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : null,
+        "italic" : null,
+        "underline" : null,
+        "fontColor" : "ffffff",
+        "backgroundColor" : "e74c3c"
+      }
+    },
+    {
+      "id": "AVERAGE_PRICE",
+      "type": "single_value",
+      "value": 99,
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : null,
+        "italic" : null,
+        "underline" : null,
+        "strikethrough" : null,
+        "fontColor" : "ffffff",
+        "backgroundColor" : "2ecc71"
+      }
+    },
+    {
+      "id": "CHURN_RATE",
+      "type": "single_value",
+      "value": "25%",
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : null,
+        "italic" : null,
+        "underline" : null,
+        "strikethrough" : null,
+        "fontColor" : "ffffff",
+        "backgroundColor" : "9b59b6"
+      }
+    },
+    {
+      "id": "TOTAL_CUSTOMERS",
+      "type": "single_value",
+      "value": 300,
+      "formatting": {
+        "fontName" : null,
+        "fontSize" : null,
+        "bold" : null,
+        "italic" : null,
+        "underline" : null,
+        "strikethrough" : null,
+        "fontColor" : "ffffff",
+        "backgroundColor" : "34495e"
+      }
+    },
+    {
+      "id": "MONTHLY_SALES",
+      "type": "list",
+      "displayName": "Monthly Sales",
+      "values": [1200, 1300, 1250, 1400, 1500],
+      "formatting": [
+        null,
+        null,
+        null,
+        null,
+        {"bold" : true, "fontSize": 16, "fontColor" : "e74c3c"}
+      ]
+    },
+    {
+      "id": "SALES_BY_PRODUCT",
+      "type": "table",
+      "displayName": "Sales by Product",
+      "headers": ["Product", "Q1", "Q2", "Q3", "Q4"],
+      "values": [
+        {"row": 1, "col": 1, "value": "Product A", "formatting": {"bold": true}},
+        {"row": 1, "col": 2, "value": 5000},
+        {"row": 1, "col": 3, "value": 7000},
+        {"row": 1, "col": 4, "value": 8000},
+        {"row": 1, "col": 5, "value": 6500},
+        {"row": 2, "col": 1, "value": "Product B", "formatting": {"bold": true}},
+        {"row": 2, "col": 2, "value": 6000},
+        {"row": 2, "col": 3, "value": 8500},
+        {"row": 2, "col": 4, "value": 9000},
+        {"row": 2, "col": 5, "value": 7500}
+      ]
+    },
+    {
+      "id": "SALES_OVER_TIME",
+      "type": "series",
+      "displayName":"Sales Over Time",
+      "labels": ["Jan", "Feb", "Mar", "Apr"],
+      "values": [1200, 1300, 1250, 1400],
+      "formatting": [
+        null,
+        null,
+        null,
+        {"bold" : true, "fontSize": 16, "fontColor" : "e74c3c"}
+      ]
+    }
+  ]
+}
