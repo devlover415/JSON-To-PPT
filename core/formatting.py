@@ -48,3 +48,4 @@ class Formatting:
             
         if self.font_color is not None:
             run.font.color.rgb = RGBColor.from_string(self.font_color)
+##ppt formating
