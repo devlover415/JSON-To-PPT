@@ -282,3 +282,4 @@ class PPTUpdater:
             self.logger.info(f"Presentation saved successfully to {output_path}")
         except Exception as e:
             self.logger.error(f"Failed to save presentation: {str(e)}")
+# ppt making
